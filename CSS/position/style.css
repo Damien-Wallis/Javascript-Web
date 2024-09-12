@@ -1,0 +1,11 @@
+div {
+  border-style: solid;
+  height: 200px;
+}
+
+.div1 {
+  background-color: darkorange;
+  width: 100px;
+  position: sticky;
+  top: 0px;
+}
