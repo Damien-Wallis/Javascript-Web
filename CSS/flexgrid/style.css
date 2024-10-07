@@ -1,0 +1,12 @@
+.box {
+  background-color: pink;
+  height: 100px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1px;
+  row-gap: 1px;
+  padding: 10px;
+}
