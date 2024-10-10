@@ -1,0 +1,25 @@
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 1px;
+  row-gap: 1px;
+}
+
+@media (min-width: 600px) {
+  .box {
+    background-color: red;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 1px;
+    row-gap: 1px;
+  }
+}
