@@ -1,0 +1,76 @@
+.main {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.container {
+  width: auto;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bluebox1 {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background-color: #a8d8fe;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.orangebox1 {
+  height: 80px;
+  width: 80px;
+  background-color: orange;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+.orangebox2 {
+  height: 80px;
+  width: 80px;
+  background-color: orange;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.bluebox2 {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background-color: #a8d8fe;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.greenbox {
+  height: 200px;
+  width: 200px;
+  background-color: #a9d800;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+.blackbox {
+  height: 70px;
+  width: 70px;
+  background-color: black;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
