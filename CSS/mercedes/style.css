@@ -1,0 +1,10 @@
+.header {
+  background-color: black;
+  height: 84px;
+  width: 100vw;
+  position: absolute;
+}
+
+.img {
+  align-items: center;
+}
