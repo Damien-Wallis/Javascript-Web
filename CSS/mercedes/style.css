@@ -1,10 +1,24 @@
 .header {
   background-color: black;
   height: 84px;
-  width: 100vw;
-  position: absolute;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.img {
-  align-items: center;
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+
+.navigation {
+  color: grey;
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  left: 115px;
+  font-family: Arial;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
