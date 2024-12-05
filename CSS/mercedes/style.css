@@ -12,7 +12,7 @@
   width: 40px;
 }
 
-.navigation {
+.navigation-left {
   color: grey;
   display: flex;
   gap: 40px;
@@ -21,4 +21,21 @@
   font-family: Arial;
   font-size: 14px;
   letter-spacing: 1px;
+}
+
+.navigation-right {
+  color: white;
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  right: 115px;
+  font-family: Arial;
+  font-size: 14px;
+  letter-spacing: 1px;
+  align-items: center;
+}
+
+.navigation-right img {
+  height: 25px;
+  width: 25px;
 }
