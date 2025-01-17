@@ -2,7 +2,7 @@
 
 // Die Funktion orderPizza nimmt den Namen der Pizza und einen Callback entgegen.
 // Sie simuliert das Bestellen der Pizza.
-// Wenn die Pizza fertig ist wird der Callback aufgerufen.
+// Wenn die Pizza fertig ist wird der Callback aufgerufen
 function orderPizza(name, callback) {
   console.log("Pizza " + name);
   callback();
