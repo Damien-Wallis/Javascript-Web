@@ -9,3 +9,8 @@ function difference() {
   let result = num1 - num2;
   console.log("Differenz von " + num1 + " und " + num2 + ": " + result);
 }
+
+function product() {
+  let result = num1 * num2;
+  console.log("Produkt von " + num1 + " und " + num2 + ": " + result);
+}
