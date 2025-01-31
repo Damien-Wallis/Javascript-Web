@@ -1,11 +1,11 @@
-function buttonClicked() {
-  console.log("Button clicked!");
-  let num1 = parseFloat(document.getElementById("number1").value);
-  let num2 = parseFloat(document.getElementById("number2").value);
-  console.log(num1);
-  console.log(num2);
-
+let num1 = parseFloat(document.getElementById("number1").value);
+let num2 = parseFloat(document.getElementById("number2").value);
+function sum() {
   let result = num1 + num2;
+  console.log("Summe von " + num1 + " und " + num2 + ": " + result);
+}
 
-  console.log(result);
+function difference() {
+  let result = num1 - num2;
+  console.log("Differenz von " + num1 + " und " + num2 + ": " + result);
 }
