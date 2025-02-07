@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
     <h1 id="heading">Überschrift</h1>
     <div id="content">
       <!--Textfeld 1-->
-      A<input type="text" id="number1" value="17" />
+      A<input type="text" id="number1" />
       <!--Textfeld 2-->
-      B<input type="text" id="number2" value="12" />
+      B<input type="text" id="number2" />
+    </div>
+    <div id="buttons">
       <button onclick="sum()">Addieren</button>
       <button onclick="difference()">Subtrahieren</button>
       <button onclick="product()">Multiplizieren</button>
