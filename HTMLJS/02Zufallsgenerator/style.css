@@ -1,29 +1,29 @@
 h1 {
-    font-family: Harlow Solid Italic;
+  font-family: Harlow Solid Italic;
 }
 
 .fields {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 input {
-    width: 20%;
-    height: 30px
+  width: 20%;
+  height: 30px;
 }
 
 button {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
 }
 
 #result {
-    color: violet;
-    display: flex;
-    width: 20%;
-    height: 30px;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
+  color: violet;
+  display: flex;
+  width: 20%;
+  height: 30px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
 }
