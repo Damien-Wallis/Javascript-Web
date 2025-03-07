@@ -5,12 +5,12 @@ function loadFootballTable() {
     .then((response) => response.json())
     .then((json) => {
       console.log(json);
-      let html = "<div>";
+      let html = "<div id = 'table'>";
 
       for (let i = 0; i < json.length; i++) {
-        html += `<div>${json[i].teamName}</div>`;
+        html += `<div data-teamId = "${json[i].teamInfoId}">${json[i].teamName}</div>`;
       }
       html += "</div>";
-      document.getElementById("table").innerHTML = html;
+      document.getElementById("footballTable").innerHTML = html;
     });
 }
