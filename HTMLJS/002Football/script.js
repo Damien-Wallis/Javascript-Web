@@ -14,3 +14,7 @@ function loadFootballTable() {
       document.getElementById("footballTable").innerHTML = html;
     });
 }
+
+document.getElementById("footballTable").addEventListener("click", (event) => {
+  console.log("event", event.target);
+});
