@@ -2,19 +2,19 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Card from "./components/Card";
+import List from "./components/List";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1 className="bg-amber-300">Hello</h1>
-      <div className="flex">
-        <Card name={"Ahmed Raschid"} status={"single"} />
-        <Card name={"Vivien Mawilli"} status={"single"} />
+      <h1 className="">Liste</h1>
+      <div className="">
+        <List item={"Coffee"} />
+        <List item={"Tea"} />
+        <List item={"Beer"} />
       </div>
-      test
     </>
   );
 }
