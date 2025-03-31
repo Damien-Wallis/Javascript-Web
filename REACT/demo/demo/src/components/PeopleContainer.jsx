@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Card1 from "./Card1";
 
 export default function PeopleContainer() {
+  const [people, setPeople] = useState([]);
+
+  useEffect(() => {
+    fetch("https://67c08172b9d02a9f224a0b60.mockapi.io/person").then((res) =>
+      res.json().then((data) => {
+        setPeople(data);
+      })
+    );
+  }, []);
+
   return (
     <div>
       <h1>abc</h1>
-      <div>
-        <Card1
-          name="Luan"
-          occupation="unemployed"
-          image="https://picsum.photos/200/300"
-        />
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        {people.map((person) => {
+          return (
+            <Card1
+              name={person.name}
+              image={person.avatar}
+              occupation={person.jobtitle}
+            />
+          );
+        })}
       </div>
     </div>
   );
